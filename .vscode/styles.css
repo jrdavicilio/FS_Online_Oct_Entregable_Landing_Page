@@ -1,0 +1,43 @@
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header h1 {
+    color: #0f9c95;
+    font-family:'Lucida Sans Regular';
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 45px;
+}
+
+header section p {
+    color:#0f9c95;
+    font-family: 'Times New Roman';
+    margin: 0
+}
+
+header select {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #e8999f;
+}
+ #background {
+    background-image: url('/FS_Online_Oct_Entregable_Landing_Page/img/referencia-sk02_responsive.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    height: 100vh; /* Asegura que el div ocupe toda la altura de la ventana */
+ }
