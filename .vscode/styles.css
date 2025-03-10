@@ -35,9 +35,10 @@ header select {
     background-color: #e8999f;
 }
  #background {
-    background-image: url('/FS_Online_Oct_Entregable_Landing_Page/img/referencia-sk02_responsive.jpg');
-    background-size: cover; /* Ajusta la imagen al tamaño del div */
-    background-position: center center; /* Centra la imagen */
-    background-repeat: no-repeat; /* No repite la imagen */
-    height: 100vh; /* Asegura que el div ocupe toda la altura de la ventana */
- }
+    background-image: url('https://github.com/jrdavicilio/FS_Online_Oct_Entregable_Landing_Page/blob/main/img/sk_fondo.jpg?raw=true');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+ 
