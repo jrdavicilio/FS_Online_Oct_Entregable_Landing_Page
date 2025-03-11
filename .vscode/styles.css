@@ -1,4 +1,12 @@
 
+.logoGreen {
+    color: #0f9c95;
+}
+
+.logoPink {
+    color: #e8999f;
+}
+
 header {
     background-color: #ffffff;
     display: flex;
@@ -9,11 +17,10 @@ header {
 }
 
 header h1 {
-    color: #0f9c95;
     font-family:'Lucida Sans Regular';
 }
 
-header section {
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,7 +28,7 @@ header section {
     gap: 45px;
 }
 
-header section p {
+header nav p {
     color:#0f9c95;
     font-family: 'Times New Roman';
     margin: 0
@@ -34,11 +41,62 @@ header select {
     border-radius: 5px;
     background-color: #e8999f;
 }
- #background {
+
+#background {
     background-image: url('https://github.com/jrdavicilio/FS_Online_Oct_Entregable_Landing_Page/blob/main/img/sk_fondo.jpg?raw=true');
     background-size: 100% 100%;
     background-position: center center;
-    background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
 }
- 
+
+.backText {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    text-align: left
+
+}
+
+.backText p {
+    font-size: 20px;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+
+.backText h2 {
+    font-size: 34px;
+    font-family: system-ui;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #e8999f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.club {
+    border-radius: 100px;
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 2px;
+}
